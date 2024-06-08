@@ -1,0 +1,13 @@
+:root{
+    --prim-purple:rgb(12, 0, 29);
+    background:rgb(13, 1, 34)
+}
+*{
+    padding:0;
+    margin:0;
+}
+.card-container{
+    background:var(--prim-purple);
+    width:100vw;
+    height:100vh; 
+}

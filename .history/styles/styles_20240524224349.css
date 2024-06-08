@@ -1,0 +1,23 @@
+:root{
+    --prim-purple:rgb(8, 1, 30)
+}
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    background:var(--prim-purple);
+    width:100vw;
+    height:100vh; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{
+    width:30%;
+    height:fit-content;
+    padding:40px;
+    border-radius: 20px;
+    /* border:1px solid grey; */
+    background:rgba(13, 1, 30,0.5)
+}
