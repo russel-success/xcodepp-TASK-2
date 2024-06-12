@@ -18,7 +18,7 @@ rate_span=document.querySelector("#rate-value");
 ratings.forEach(element=>{
     element.addEventListener("click",()=>{
         ratings.forEach(element=>{
-            element.classList.remove("chosen-rating");
+            element.classList.remove('chosen-rating');
         })
         
        for(var i=0; i<element.textContent; i++){
